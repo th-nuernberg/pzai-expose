@@ -1,0 +1,78 @@
+\pdfoutput=1
+
+\documentclass[11pt,DIV=16,parskip=half]{scrartcl}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{svg}
+\usepackage{algorithm,algorithmic}
+\usepackage{textcomp}
+\usepackage{multirow}
+
+\usepackage{hyperref}
+\hypersetup{hidelinks=true}
+
+\usepackage[backend=biber, bibencoding=utf8, giveninits=true,
+maxbibnames=99, % show all authors in the bibliography
+maxalphanames=1, minalphanames=1, style=ieee, backref=false]{biblatex}
+% Sets the bib file
+\addbibresource{refs.bib}
+
+% Basic information
+\title{My fancy Exposé}
+\author{Jane Doe, mailto:jane.doe@your-affiliation.de}
+\date{October 2024}
+
+\begin{document}
+\maketitle
+
+The point of this exposé is to demonstrate that you have a good understanding of what your thesis will be about and what the steps are to get there.
+Please discuss your exposé with your advisor to make sure all points are covered.
+It will be read by the PZAI Promotionsausschuss (dissertation committee) to estimate if your research proposal is in line with the overall research agenda of the PZAI, if depth in terms of computer science and/or math is sufficient, and if the balance of theoretical and experimental work is adequate.
+
+Expect this document to be about 2-3 pages (depending on figures, tables, ...), excluding references.
+
+
+\section{Introduction}
+Briefly introduce the reader to the overall topic, describe the problem and scenario you are working on, and --if not obvious-- explain, how this topic matches the topics of the PZAI.
+
+Limit yourself to about 150 words, use references only if absolutely necessary.
+
+
+
+\section{Related Work}
+Describe the related work and state of the art.
+Try to find a balance between covering relevant approaches and detailing those lines of work which are closest to your planned contribution.
+
+Limit yourself to about 300 words, try to avoid references of questionable quality (websites, unverified arxiv preprints, ...) and make sure your references are formatted correctly, e.g.~\cite{cooley1965-fft}.
+
+
+
+\section{Thesis Objective}
+Based on the related work, identify the research gap you will be addressing.
+Try to formulate research questions that your thesis will answer.
+Describe the overall expected outcome of your research.
+Helpful formulations could be as below
+
+Consider this an executive summary and limit yourself to 150 words.
+
+The objective of this thesis is ...
+
+To achieve this goal, the following main research questions must be addressed: ....
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin turpis nunc, aliquet laoreet facilisis nec, tempus ut ex. Etiam iaculis tortor nisl, quis posuere lectus interdum sit amet. Integer vel euismod massa. Pellentesque lacinia mauris non nibh malesuada, a dignissim leo cursus. Vivamus semper ut metus a vehicula. Etiam scelerisque in elit vitae euismod. Curabitur pellentesque pharetra libero eu sollicitudin. Mauris non purus vitae nulla varius porttitor. Donec at ante at magna malesuada malesuada. Sed venenatis dui non justo laoreet efficitur. Cras erat sem, imperdiet vitae suscipit non, volutpat eu augue. Phasellus sed diam non ante tristique pulvinar in commodo purus. Nullam at lobortis orci. In quis tempor dui. Cras et tristique nibh. Nunc eleifend ac odio quis eleifend.
+
+\section{Research Outline}
+Sketch an outline of your research.
+What problems will be addressed, how will you solve them?
+What are data or infrastructure requirements, and how will you meet them?
+How do you measure progress and success in your research?
+You can think of this as work packages or milestones that you describe.
+Briefly argue why your reseach will lead to a Dr.-Ing. or Dr. rer. nat.
+
+Limit yourself to about 500 words, use figures, schemes, tables or itemized formatting as needed.
+
+
+
+\printbibliography
+
+\end{document}
