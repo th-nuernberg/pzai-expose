@@ -1,5 +1,8 @@
 # PZAI Exposé
 
+Exposé template of [Promotionszentrum Angewandte
+Informatik (PZAI)](https://www.oth-regensburg.de/forschen/promotion/promotionszentren/pzai).
+
 The most recent version of this document is hosted on
 [GitHub](https://github.com/th-nuernberg/pzai-expose) and
 [Overleaf](https://www.overleaf.com/read/ctgdqqhnpksb#2bc10c).
