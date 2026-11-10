@@ -7,6 +7,8 @@ The most recent version of this document is hosted on
 [GitHub](https://github.com/th-nuernberg/pzai-expose) and
 [Overleaf](https://www.overleaf.com/read/ctgdqqhnpksb#2bc10c).
 
+An unofficial Typst version of this document can be found on [Typst Universe](https://typst.app/universe/package/pzai-expose-unofficial).
+
 The point of this exposé is to demonstrate that you have a good understanding of
 what your thesis will be about and what the steps are to get there. Please
 discuss your exposé with your advisor to make sure all points are covered. It
